@@ -29,7 +29,7 @@ play.onclick = function () {
 		else {
 			result.innerHTML = 'Error'
 		}
-		opponent.innerHTML=`Opponent Chose ${opponent.innerHTML}`
+		opponent.innerHTML = `Opponent Chose ${opponent.innerHTML}`
 		opponent.append()
 		result.append()
 	})
@@ -50,7 +50,7 @@ play.onclick = function () {
 		else {
 			result.innerHTML = 'Error'
 		}
-		opponent.innerHTML=`Opponent Chose ${opponent.innerHTML}`
+		opponent.innerHTML = `Opponent Chose ${opponent.innerHTML}`
 		opponent.append()
 		result.append()
 	})
@@ -66,12 +66,12 @@ play.onclick = function () {
 			result.innerHTML = 'You Lost!'
 		}
 		else if (opponent.innerHTML == 'Rock') {
-			result.innerHTML = 'Play again'
+			result.innerHTML = 'Play again!'
 		}
 		else {
 			result.innerHTML = 'Error'
 		}
-		opponent.innerHTML=`Opponent Chose ${opponent.innerHTML}`
+		opponent.innerHTML = `Opponent Chose ${opponent.innerHTML}`
 
 		opponent.append()
 		result.append()
